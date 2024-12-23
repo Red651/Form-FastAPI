@@ -38,5 +38,5 @@ class AnggotaForm(BaseModel):
     hubungi_keluarga: List[HubungiKeluarga] = Field(default_factory=list)
 
 class AnggotaRespon(BaseModel):
-    id_anggota: int
+    id_anggota: str
     dibuat: datetime
